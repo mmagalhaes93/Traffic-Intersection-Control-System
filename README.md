@@ -14,11 +14,13 @@ Intructions to test:
 
 Test Cases:
 
-1. Vehicles queued in every lanes (rush hour)
-Expected behavior: Max time for every traffic pattern
-
-2. No vehicles queued in any lane
+1. Arg = 0 , No vehicles queued in any lane
 Expected behavior: Min time for every traffic pattern
 
-3. Vehicles queued in one of opposing lanes (Ex: Vehicles queued in Nouth Turn lane but not in North Turn Lane)
+2. Arg = 1, Vehicles queued in every lanes (rush hour)
+Expected behavior: Max time for every traffic pattern
+
+3. Arg = 2, Vehicles queued in one of opposing lanes (Ex: Vehicles queued in Nouth Turn lane but not in North Turn Lane)
 Expected behavior: Max time for North-South-Turn traffic pattern,  Min time for remaining traffic patterns
+
+In the command line, it will be printed the active status of the traffic pattern and corresponding active times. An upper bound time of 3 seconds is used to wait for any car travelling through the intersection.
