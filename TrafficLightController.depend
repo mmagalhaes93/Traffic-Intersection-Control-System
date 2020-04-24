@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1587668344 source:c:\users\maria magalhães\documents\trafficlightcontroller\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TrafficControl.h"
+
+1587644203 c:\users\maria magalhães\documents\trafficlightcontroller\trafficcontrol.h
+	<stdio.h>
+
+1587668337 source:c:\users\maria magalhães\documents\trafficlightcontroller\trafficcontrol.c
+	<unistd.h>
+	<time.h>
+	"TrafficControl.h"
+
+1587727938 source:c:\users\maria magalhães\documents\trafficlightcontroller\traffic-intersection-control-system\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TrafficControl.h"
+
+1587727937 c:\users\maria magalhães\documents\trafficlightcontroller\traffic-intersection-control-system\trafficcontrol.h
+	<stdio.h>
+
+1587727652 source:c:\users\maria magalhães\documents\trafficlightcontroller\traffic-intersection-control-system\trafficcontrol.c
+	<unistd.h>
+	<time.h>
+	<stdlib.h>
+	"TrafficControl.h"
+
